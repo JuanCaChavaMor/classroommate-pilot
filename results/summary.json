@@ -1,0 +1,25 @@
+{
+  "classes": 142,
+  "teachers": 47,
+  "courses": 24,
+  "located_by_value": 116,
+  "located_by_order": 62,
+  "worksheet_rows": 329,
+  "baseline_slope": -0.04050207568985713,
+  "baseline_slope_ci": [
+    -0.05995865269139368,
+    -0.02104549868832058
+  ],
+  "permutation": {
+    "n_intensivo": 13,
+    "n_bajo": 28,
+    "diff": 0.016741354781053864,
+    "p": 0.2947705229477052
+  },
+  "mde_teacher_level": 0.04167141887276827,
+  "mean_increase_improving_only": {
+    "Bajo": 0.042869163645040675,
+    "Intensivo": 0.06082722247862682,
+    "Medio": 0.05193558802440501
+  }
+}

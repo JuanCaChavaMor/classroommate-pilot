@@ -1,0 +1,14 @@
+\begin{tabular}{lllrr}
+\toprule
+model & version & usage & coef. & $p$ \\
+\midrule
+logit: P(r >= 1) & original code (summary rows kept) & intensive & 1.040 & 0.0001 \\
+logit: P(r >= 1) & original code (summary rows kept) & medium & 0.542 & 0.0665 \\
+mixed (groups = subject): r & original code (summary rows kept) & intensive & 0.035 & 0.0000 \\
+mixed (groups = subject): r & original code (summary rows kept) & medium & 0.007 & 0.4771 \\
+logit: P(r >= 1) & summary rows removed & intensive & 1.055 & 0.0001 \\
+logit: P(r >= 1) & summary rows removed & medium & 0.590 & 0.0551 \\
+mixed (groups = subject): r & summary rows removed & intensive & 0.033 & 0.0002 \\
+mixed (groups = subject): r & summary rows removed & medium & 0.006 & 0.5544 \\
+\bottomrule
+\end{tabular}

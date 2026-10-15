@@ -1,0 +1,9 @@
+version,model,usage,coef,p
+original code (summary rows kept),logit: P(r >= 1),Intensivo,1.0399,0.0001
+original code (summary rows kept),logit: P(r >= 1),Medio,0.5419,0.0665
+original code (summary rows kept),mixed (groups = subject): r,Intensivo,0.0354,0.0000
+original code (summary rows kept),mixed (groups = subject): r,Medio,0.0072,0.4771
+summary rows removed,logit: P(r >= 1),Intensivo,1.0551,0.0001
+summary rows removed,logit: P(r >= 1),Medio,0.5902,0.0551
+summary rows removed,mixed (groups = subject): r,Intensivo,0.0330,0.0002
+summary rows removed,mixed (groups = subject): r,Medio,0.0062,0.5544

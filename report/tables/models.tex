@@ -1,0 +1,12 @@
+\begin{tabular}{lrrrr}
+\toprule
+specification & \multicolumn{2}{c}{intensive vs low} & \multicolumn{2}{c}{medium vs low} \\ \cmidrule(lr){2-3}\cmidrule(lr){4-5}
+& difference [\%] (95\% CI) & $p$ & difference [\%] (95\% CI) & $p$ \\
+\midrule
+OLS, classes independent & +2.7 [+0.4, +5.1] & 0.023 & +0.7 [$-$2.4, +3.7] & 0.656 \\
+OLS, SE clustered by teacher & +2.7 [+0.4, +5.1] & 0.023 & +0.7 [$-$3.0, +4.4] & 0.714 \\
++ baseline, SE clustered by teacher & +1.2 [$-$1.3, +3.6] & 0.363 & $-$0.9 [$-$4.9, +3.2] & 0.674 \\
++ baseline, SE clustered by class & +1.2 [$-$0.9, +3.3] & 0.280 & $-$0.9 [$-$4.9, +3.2] & 0.673 \\
+mixed model: teacher + class, + baseline & +1.2 [$-$1.1, +3.4] & 0.316 & $-$0.9 [$-$3.7, +2.0] & 0.551 \\
+\bottomrule
+\end{tabular}
